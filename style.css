@@ -1,0 +1,63 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+#logo {
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#intro {
+  background: #f8f9fa;
+  padding: 50px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#features {
+  background: #fff;
+  padding: 50px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#merge {
+  background: #f8f9fa;
+  padding: 50px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#mergeBtn {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#mergeBtn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+#downloadLink {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#downloadLink:hover {
+  background-color: #28a745;
+  transform: scale(1.05);
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSVConverge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CSVConverge</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#merge">Merge CSV</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="intro" class="container my-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="logo.jpg" alt="offline!" id="logo">
+                <h1>Welcome to the CSVConverge</h1>
+                <p class="lead">Easily merge multiple CSV files into one.</p>
+            </div>
+        </div>
+    </div>
+    <div id="features" class="container my-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Features</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card feature-card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Easy to Use</h5>
+                        <p class="card-text">Upload your files and merge them with a single click.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Fast Processing</h5>
+                        <p class="card-text">Merging CSV files quickly and efficiently.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Secure</h5>
+                        <p class="card-text">Your files are safe and not stored on any server.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="merge" class="container my-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Merge Your CSV Files</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="csvFiles" class="form-label">Upload CSV Files</label>
+                    <input class="form-control" type="file" id="csvFiles" multiple accept=".csv">
+                </div>
+                <button id="mergeBtn" class="btn btn-primary w-100">Merge CSV Files</button>
+                <div id="error-message" class="mt-3 text-danger d-none">An error occurred while processing the files.</div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-6 text-center">
+                <a id="downloadLink" class="btn btn-success d-none">Download Merged CSV</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
