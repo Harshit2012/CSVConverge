@@ -22,6 +22,9 @@ Easily merge multiple CSV files into one.
 <code><img width="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" alt="JavaScript" title="JavaScript"/></code>
 <code><img width="50" src="papaprase.png" alt="PapaPrase" title="PapaPrase"/></code>
 
+## Chart of this website
+![New Model](https://github.com/Harshit2012/CSVConverge/assets/105143145/a81fc496-96d8-4d94-b5b3-56170e8ae053)
+
 ## Contribution
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request.
 
